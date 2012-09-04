@@ -27,11 +27,9 @@ Usage
 
 Add `#include 'NSDate+FriendlyDates.h` to the class where you want to use these methods.
 
-`NSDate *firstDate = [NSDate dateWithTimeIntervalSince1970:0];
-
-NSDate *secondDate = [NSDate dateWithTimeIntervalSince1970:90];
-
-NSString *response = [NSDate friendlyIntervalBetweenFirstDate:firstDate andSecondDate:secondDate];`
+    NSDate *firstDate = [NSDate dateWithTimeIntervalSince1970:0];
+    NSDate *secondDate = [NSDate dateWithTimeIntervalSince1970:90];
+    NSString *response = [NSDate friendlyIntervalBetweenFirstDate:firstDate andSecondDate:secondDate];`
 
 will return
 
